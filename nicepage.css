@@ -31375,26 +31375,38 @@ a.u-link.u-text-hover-grey-90:hover {
   letter-spacing: 0px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 102px;
+  }
+
   .u-header .u-image-1 {
-    width: 64px;
-    height: 63px;
+    width: auto;
+    margin-top: 12px;
   }
 
   .u-header .u-menu-1 {
     width: auto;
-    margin-top: -58px;
+    margin-top: -55px;
     margin-right: 0;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 98px;
+  }
 
-@media (max-width: 767px) {
   .u-header .u-image-1 {
-    width: auto;
+    margin-top: 10px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -50px;
   }
 }
 
+
 .u-footer .u-sheet-1 {
-  min-height: 154px;
+  min-height: 166px;
 }
 
 .u-footer .u-social-icons-1 {
@@ -31430,17 +31442,14 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   width: 530px;
-  margin: 19px auto 20px;
+  margin: 20px auto 31px;
 }
 
 .u-footer .u-btn-1 {
+  font-weight: 700;
   padding: 0;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 154px;
-  }
-
   .u-footer .u-social-icons-1 {
     margin-left: 420px;
   }
